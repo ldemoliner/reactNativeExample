@@ -11,8 +11,8 @@ const Button = ({ onPress, children }) => {
                 {children}
             </Text>
         </TouchableOpacity>
-    )
-}
+    );
+};
 
 const styles = {
     textStyle: {
@@ -33,6 +33,6 @@ const styles = {
         marginLeft: 5,
         marginRight: 5
     }
-}
+};
 
 export { Button };
